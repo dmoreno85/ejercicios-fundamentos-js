@@ -1,7 +1,7 @@
-// ej 6
-// crea un array con la gente que su nombre tiene 4 letras
-// utilizando el método filter de los arrays
-// y muéstralo por consola.
+// // ej 6
+// // crea un array con la gente que su nombre tiene 4 letras
+// // utilizando el método filter de los arrays
+// // y muéstralo por consola.
 
 let gente = [{
         nombre: 'Jamiro',
@@ -32,4 +32,19 @@ let gente = [{
         edad: 10
     },
 ]
+
+
+
+
+
+
+var genteFiltrada=[]
+ gente.filter(function (persona) {
+    if(persona.nombre.length=== 4){
+        genteFiltrada.push(persona.nombre)
+    }
+  
+});
+
+console.log(genteFiltrada)
 
