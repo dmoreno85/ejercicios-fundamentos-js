@@ -5,7 +5,15 @@
 
 
 // Aquí tu código
+let obj={
+    a:{
+        b:true,
+        c:['hola',2]
+    },
+    d:6,
+    f:'moto'
 
+}
 // Hasta aquí
 
 // TEST 1
