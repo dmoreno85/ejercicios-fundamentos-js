@@ -35,3 +35,24 @@ let gente = [{
     },
 ]
 
+// let people= gente.filter(function(person){
+
+//     return person.nombre[0]==='P' && person.edad < 33;
+// })
+
+
+// console.log(people)
+
+
+
+
+
+let genteFiltrada = gente.filter(function (persona) {
+    return persona.nombre[0] === 'J' && persona.edad < 40
+});
+console.log(genteFiltrada)
+// let genteFiltrada=gente.filter(function(persona){
+//     return persona.nombre[0]==='L' && persona.edad < 25
+// });
+
+// console.log(genteFiltrada)
