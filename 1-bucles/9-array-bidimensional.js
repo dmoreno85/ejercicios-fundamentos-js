@@ -12,3 +12,8 @@ let matriz = [
     [],
     []
 ]
+for ( i= 0; i<3; i++){
+    for (i=j, j<3; j++){
+    matriz[i].push(i+''+j)}
+}
+console.log(matriz)
