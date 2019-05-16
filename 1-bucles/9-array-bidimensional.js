@@ -17,3 +17,4 @@ for ( i= 0; i<3; i++){
     matriz[i].push(i+''+j)}
 }
 console.log(matriz)
+
