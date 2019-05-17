@@ -5,8 +5,12 @@
 
 
 // Aquí tu código
+// let arr=[['object',{name:['pepito']}, {age:[25]}],
+//  ['object',{name:['Jaime','pepito']},{age:[5]}],
+ 
+//  [{age:[1]},'object'],]
 
-
+let arr=[ {name:'pepito',age:25}, {name:'pepito',age:25}, {name:'Jaime',age:2} ]
 // Hasta aquí
 
 // TEST 1
