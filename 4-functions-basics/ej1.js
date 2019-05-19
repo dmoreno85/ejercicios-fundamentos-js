@@ -8,8 +8,7 @@
 
 let duplicaNumero = (numero) => {
     // Aquí tu código.  Desde aquí:
-   
-
+  return numero * 2;
 
     // Hasta aquí.
 }
