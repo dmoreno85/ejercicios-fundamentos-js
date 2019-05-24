@@ -7,7 +7,9 @@
 //  convierteEurosEnPesetas(1) === 168 // true
 
 // Aquí tu código
-
+let convierteEurosEnPesetas=(money=>{
+   return money*=168
+})
 
 // Hasta aquí
 
